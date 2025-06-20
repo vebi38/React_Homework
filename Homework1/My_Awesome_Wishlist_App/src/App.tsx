@@ -46,7 +46,6 @@ function App() {
   const [items, setItems] = useState<string[]>([
     "New Headphones",
     "Fancy Coffee Machine",
-    "Learn React Fast"
   ]);
 
   const addItem = (item: string) => {
